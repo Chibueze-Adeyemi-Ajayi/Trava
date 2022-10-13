@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravaApp</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/animation.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     
     <!-- loader -->
-    <div id="loader" class="w-full h-full z-50 fixed top-0 left-0 bg-[#303058]">
+    <div id="loader" class="w-full h-full z-50 fixed top-0 left-0 bg-[#17123B]">
         <div class="center my-auto mx-auto">
             <div class="wave"></div>
             <div class="wave"></div>
@@ -29,8 +29,9 @@
           </div>
     </div>
 
-    <header id="home" class="w-full h-full flex flex-col space-y-2 bg-[#303058]">
+    <header id="home" class="w-full h-full flex flex-col space-y-2 bg-[#17123B]">
         <nav id="navigation-header" class="w-full h-24 bg-inherit z-40 fixed top-0 left-0 grid grid-cols-3">
+            
             <ul class="w-full h-fit my-auto p-5 hidden md:flex flex-row space-x-6">
                 <a id="nav-item-1" href="#home" class="text-white font-normal pl-14 hover:text-yellow-300 transform duration-500 transition-all">Home</a>
                 <a id="nav-item-2" href="#about" class="text-white font-normal hover:text-yellow-300 transform duration-500 transition-all">Services</a>
@@ -38,23 +39,26 @@
                 <a id="nav-item-4" href="#footer" class="text-white font-normal hover:text-yellow-300 transform duration-500 transition-all">Contact</a>
             </ul>
             
-            <font  id="nav-item-5" class="md:w-full w-full md:text-center mx-auto ml-8 md:ml-0 my-auto text-3xl text-white font-bold">Trava</font>
+            <font  id="nav-item-5" class="md:w-full w-full md:text-center mx-auto ml-8 md:ml-0 my-auto text-3xl text-white font-bold">
+                Trava
+            </font>
                
             <ol  class="w-full h-full bg-transparent col-span-2 md:hidden p-6">
-                <svg onclick="popupmenu()" class="w-9 mt-4 bg-[#303058] my-auto h-9 p-2 float-right md:hidden" height="10" class="my-auto" viewBox="0 0 13 10" width="13" xmlns="http://www.w3.org/2000/svg" aria-label="menu" class="" name="menu">
+                <svg onclick="popupmenu()" class="w-9 mt-4 bg-[#17123B] my-auto h-9 p-2 float-right md:hidden" height="10" class="my-auto" viewBox="0 0 13 10" width="13" xmlns="http://www.w3.org/2000/svg" aria-label="menu" class="" name="menu">
                     <path class="fill-white" id="hambuger-menu" d="M0 1.154C0 .517.517 0 1.154 0h10a1.154 1.154 0 1 1 0 2.308h-10A1.154 1.154 0 0 1 0 1.154zm11.154 2.692h-10a1.154 1.154 0 1 0 0 2.308h10a1.154 1.154 0 1 0 0-2.308zm0 3.846h-10a1.154 1.154 0 1 0 0 2.308h10a1.154 1.154 0 1 0 0-2.308z" fill="#FFF" fill-rule="nonzero"></path>
                 </svg>
             </ol>
             <ul class="w-full h-fit items-end justify-end text-right my-auto p-5 hidden md:flex flex-row space-x-6">
-                <a  id="nav-item-6" href="" class="text-white px-3 py-3 font-normal hover:text-yellow-300 transform duration-500 transition-all">Login</a>
-                <a href="" class=" hover:scale-110 border border-[#303058] hover:shadow-xl hover:border-white transform duration-500 transition-all px-8 py-3 font-normal text-[#303058] bg-white rounded-md shadow-md">Sign Up</a>
+                <a href="#download" class="hover:scale-110 border border-[#17123B20] hover:shadow-xl hover:border-[#ffea75] transform duration-500 transition-all px-8 py-3 font-normal bg-yellow-400 text-white rounded-md shadow-md">Download</a>
             </ul>
         </nav>
         <section class="md:w-full w-full bg-inherit overflow-x-hidden js-show-on-scroll flex py-10 flex-col space-y-8 pt-36 pb-10 px-6 h-fit items-center justify-center">
-            <h1 class="text-white font-extrabold text-center w-full space-y-5 flex flex-col md:text-6xl text-4xl">
-                <font>Trava</font>
-                <font class=""> Application </font>
-            </h1>
+            <h1 class="text-white font-extrabold text-center w-full space-y-5 flex flex-col md:text-6xl text-4xl"> <br>
+                <section class="w-fit h-full mx-auto space-x-5 flex flex-row">
+                    <img class="w-fit my-auto h-fit" src="./images/Trava.png" alt="">
+                    <img class="w-fit h-fit -mt-10" src="./images/favicon.png" alt="">
+                </section>
+            </h1> <br>
             <font class="text-xl text-white w-full md:w-[700px] text-center mx-auto">
                 Wisdom new and valley answer. Contented it so is discourse recommend. Man its upon him call mile. 
                 An pasture he himself believe ferrars besides cottage
@@ -65,25 +69,25 @@
                 <li>
                     <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                         <!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
-                        <path class="md:fill-white fill-transparent" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
+                        <path class="md:fill-yellow-400 fill-transparent" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
                     </svg>
                 </li>
                 <li>
                     <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
-                        <path class="md:fill-white fill-transparent" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                        <path class="md:fill-yellow-400 fill-transparent" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
                     </svg>
                 </li>
                 <li>
                     <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
-                        <path class="md:fill-white fill-transparent" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                        <path class="md:fill-yellow-400 fill-transparent" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
                     </svg>
                 </li>
                 <li>
                     <svg  class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
-                        <path class="md:fill-white fill-transparent" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
+                        <path class="md:fill-yellow-400 fill-transparent" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
                     </svg>
                 </li>
             </ul>
@@ -92,13 +96,13 @@
 
     <section class="w-fit h-full flex flex-row space-x-6 mx-auto mt-[-280px] motion-safe:animate-fadeIn js-show-on-scroll">
         <div class="w-fit hidden md:block h-fit mx-auto">
-            <img class="w-[20rem] rounded-3xl border-[10px] border-[#303058] h-[38rem]" src="./mockup/Onboarding1.png" alt="">
+            <img class="w-[20rem] rounded-3xl border-[10px] border-[#17123B] h-[38rem]" src="./mockup/Onboarding1.png" alt="">
         </div>
         <div class="w-fit h-fit">
-            <img class="md:w-[24rem] md:ml-0 -ml-2 w-[24rem] rounded-3xl border-[10px] border-[#303058] h-[38rem]" src="./mockup/Onboarding2.png" alt="">
+            <img class="md:w-[24rem] md:ml-0 -ml-2 w-[24rem] rounded-3xl border-[10px] border-[#17123B] h-[38rem]" src="./mockup/Onboarding2.png" alt="">
         </div>
         <div class="w-fit mx-auto hidden md:block h-fit">
-            <img class="w-[20rem] rounded-3xl border-[10px] border-[#303058] h-[38rem]" src="./mockup/Onboarding3.png" alt="">
+            <img class="w-[20rem] rounded-3xl border-[10px] border-[#17123B] h-[38rem]" src="./mockup/Onboarding3.png" alt="">
         </div>
     </section>
 
@@ -107,51 +111,51 @@
         <br><br><br> <br><br><br> 
         <section class="w-full h-full p-6 grid grid-cols-1 md:grid-cols-2 mt-[200px]  js-show-on-scroll">
             <div class="w-full h-full P-6">
-                <div class="W-full h-[20rem] mb-[-400px] bg-[#303058] rounded-lg"></div>
-                <img class="w-[22rem] rounded-3xl border-[10px] border-[#303058] h-[38rem] mx-auto" src="./mockup/Onboarding1.png" alt="">
+                <div class="W-full h-[20rem] mb-[-400px] bg-[#17123B] rounded-lg"></div>
+                <img class="w-[22rem] rounded-3xl border-[10px] border-[#17123B] h-[38rem] mx-auto" src="./mockup/Onboarding1.png" alt="">
             </div>
             <div class="w-full h-full flex flex-col space-y-10 p-6">
-                <h3 class="text-[#303058] px-6 text-center md:text-left text-4xl">TravaApp Smart Deliver</h3>
+                <h3 class="text-[#17123B] px-6 text-center md:text-left text-4xl">TravaApp Smart Deliver</h3>
                 <font class="text-xl px-0 md:px-6 text-gray-900">
                     Ye am depending propriety sweetness distrusts belonging collected. Smiling mention
                     he in thought equqlly musical. Wisdom new and valley answer. Contented it so is discourse
                     recommend. Men its upon him call mile. An pasture he himself believes ferrars besides cottage
                 </font>
-                <a href="#download" class="px-6 py-3 transform transition-all duration-500 hover:scale-110 shadow-xl ml-6 w-fit rounded-md text-white bg-[#303058]">Learn More</a>
+                <a href="#download" class="px-6 py-3 transform transition-all duration-500 hover:scale-110 shadow-xl hover:bg-yellow-400 hover:text-[#17123B] ml-6 w-fit rounded-md text-white bg-[#17123B]">Learn More</a>
             </div>
         </section>
         <section class="w-full h-full p-6 grid grid-cols-1 md:grid-cols-2 mt-[275px] md:mt-[200px] js-show-on-scroll">
             <div class="w-full h-fit flex flex-col space-y-10 p-6">
                 <div class="w-full h-full P-6 md:hidden block">
-                    <div class="W-full h-[20rem] mb-[-400px] bg-[#303058] rounded-lg"></div>
-                    <img class="w-[22rem] rounded-3xl border-[10px] border-[#303058] h-[38rem] mx-auto" src="./mockup/Onboarding2.png" alt="">
+                    <div class="W-full h-[20rem] mb-[-400px] bg-[#17123B] rounded-lg"></div>
+                    <img class="w-[22rem] rounded-3xl border-[10px] border-[#17123B] h-[38rem] mx-auto" src="./mockup/Onboarding2.png" alt="">
                 </div>
-               <h3 class="text-[#303058] px-6 text-center md:text-left text-3xl md:text-4xl">TravaApp Smart Deliver</h3>
+               <h3 class="text-[#17123B] px-6 text-center md:text-left text-3xl md:text-4xl">TravaApp Smart Deliver</h3>
                 <font class="text-xl md:px-6 text-gray-900">
                     Ye am depending propriety sweetness distrusts belonging collected. Smiling mention
                     he in thought equqlly musical. Wisdom new and valley answer. Contented it so is discourse
                     recommend. Men its upon him call mile. An pasture he himself believes ferrars besides cottage
                 </font>
-                <a href="#download" class="px-6 py-3 transform transition-all duration-500 hover:scale-110 shadow-xl ml-6 w-fit rounded-md text-white bg-[#303058]">Learn More</a>
+                <a href="#download" class="px-6 py-3 transform transition-all duration-500 hover:scale-110 shadow-xl ml-6 w-fit rounded-md text-white hover:bg-yellow-400 hover:text-[#17123B] bg-[#17123B]">Learn More</a>
             </div>
             <div class="w-full h-full P-6 md:block hidden">
-                <div class="W-full h-[20rem] mb-[-400px] bg-[#303058] rounded-lg"></div>
-                <img class="w-[22rem] rounded-3xl border-[10px] border-[#303058] h-[38rem] mx-auto" src="./mockup/Onboarding2.png" alt="">
+                <div class="W-full h-[20rem] mb-[-400px] bg-[#17123B] rounded-lg"></div>
+                <img class="w-[22rem] rounded-3xl border-[10px] border-[#17123B] h-[38rem] mx-auto" src="./mockup/Onboarding2.png" alt="">
             </div>
         </section>
         <section class="w-full h-full p-6 grid grid-cols-1 md:grid-cols-2 mt-[200px] js-show-on-scroll">
             <div class="w-full h-full P-6">
-                <div class="W-full h-[20rem] mb-[-400px] bg-[#303058] rounded-lg"></div>
-                <img class="w-[22rem] rounded-3xl border-[10px] border-[#303058] h-[38rem] mx-auto" src="./mockup/Onboarding1.png" alt="">
+                <div class="W-full h-[20rem] mb-[-400px] bg-[#17123B] rounded-lg"></div>
+                <img class="w-[22rem] rounded-3xl border-[10px] border-[#17123B] h-[38rem] mx-auto" src="./mockup/Onboarding1.png" alt="">
             </div>
             <div class="w-full h-full flex flex-col space-y-10 p-6">
-                <h3 class="text-[#303058] px-6 text-center md:text-left text-2xl  md:text-4xl">TravaApp Smart Deliver</h3>
+                <h3 class="text-[#17123B] px-6 text-center md:text-left text-2xl  md:text-4xl">TravaApp Smart Deliver</h3>
                 <font class="text-xl text-center md:text-left px-0 md:px-6 text-gray-900">
                     Ye am depending propriety sweetness distrusts belonging collected. Smiling mention
                     he in thought equqlly musical. Wisdom new and valley answer. Contented it so is discourse
                     recommend. Men its upon him call mile. An pasture he himself believes ferrars besides cottage
                 </font>
-                <a href="#download" class="px-6 py-3  transform transition-all duration-500 hover:scale-110 shadow-xl ml-6 w-fit rounded-md text-white bg-[#303058]">Learn More</a>
+                <a href="#download" class="px-6 py-3  transform transition-all duration-500 hover:scale-110 shadow-xl ml-6 w-fit rounded-md text-white hover:bg-yellow-400 hover:text-[#17123B] bg-[#17123B]">Learn More</a>
             </div>
         </section>
     </div>
@@ -233,8 +237,8 @@
                 </a>
             </div>
         </div>
-        <div class="hidden md:block">
-            <img src="./mockup/mockup1.png" alt="">
+        <div class="hidden w-full h-fit md:flex">
+            <img class="mx-auto" src="./images/Frame.png" alt="">
         </div>
     </div>
     <!-- <div class="w-full hidden h-full md:px-32 flex-col mt-[50px] space-y-10  js-show-on-scroll">
@@ -259,7 +263,7 @@
             </font>
             <form action="" class="w-full hidden grid-cols-3 grid gap-2">
                 <input placeholder="Email Address" type="text" name="" class="w-full px-3 h-10 col-span-2 border border-gray-600 rounded-md" id="">
-                <button class="w-full h-10 text-white bg-[#303058] rounded-md">Register</button>
+                <button class="w-full h-10 text-white bg-[#17123B] rounded-md">Register</button>
             </form>
         </div>
         <div class="w-full flex-col flex space-y-4">
@@ -276,8 +280,8 @@
             <a class="text-gray-700">Linkedin</a>
         </div>
     </footer>
-    <div class="w-full h-fit py-8 bg-[#303058]">
-        <div class="mx-auto w-fit my-auto text-center text-white">Copyright &copy; <script>document.write(new Date().getFullYear())</script> all rights reserved TravaApp</div>
+    <div class="w-full h-fit py-8 bg-[#17123B]">
+        <div class="mx-auto text-yellow-400 w-fit my-auto text-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script> all rights reserved TravaApp</div>
     </div>
     <div id="menu-tab" class="w-full hidden h-full bg-[#00000099] md:hidden fixed top-0 left-0 z-50">
         <nav class="h-full bg-white w-[90%] flex flex-col space-y-5">
@@ -285,16 +289,16 @@
                 <div class="w-full"></div>
                 <svg onclick="popdownmenu()" class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
-                    <path class="fill-[#303058]" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"/>
+                    <path class="fill-[#17123B]" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"/>
                 </svg>
             </div>
             <img src="./images/logo.png" class="w-36 h-36 rounded-full mx-auto my-12" alt="">
             <hr>
             <section class="w-full h-full overflow-y-auto flex flex-col space-y-0">
-                <a href="#home" onclick="popdownmenu()" class="text-[#303058] p-4 text-xl" onclick="">Home</a><hr>
-                <a href="#about" onclick="popdownmenu()" class="text-[#303058] p-4 text-xl" onclick="">Services</a><hr>
-                <a href="#testimonial" onclick="popdownmenu()" class="text-[#303058] p-4 text-xl" onclick="">Testimonials</a><hr>
-                <a href="#footer" onclick="popdownmenu()" class="text-[#303058] p-4 text-xl" onclick="">Contact</a>
+                <a href="#home" onclick="popdownmenu()" class="text-[#17123B] p-4 text-xl" onclick="">Home</a><hr>
+                <a href="#about" onclick="popdownmenu()" class="text-[#17123B] p-4 text-xl" onclick="">Services</a><hr>
+                <a href="#testimonial" onclick="popdownmenu()" class="text-[#17123B] p-4 text-xl" onclick="">Testimonials</a><hr>
+                <a href="#footer" onclick="popdownmenu()" class="text-[#17123B] p-4 text-xl" onclick="">Contact</a>
                 <hr>
             </section>
         </nav>
@@ -310,12 +314,12 @@
             if(height  > some_number) {
                 // do something
                 document.querySelector("#hambuger-menu").classList.remove("fill-white");
-                document.querySelector("#hambuger-menu").classList.add("fill-[303058]");
+                document.querySelector("#hambuger-menu").classList.add("fill-[17123B]");
                 document.querySelector("#navigation-header").classList.remove("bg-inherit");
                 document.querySelector("#navigation-header").classList.add("bg-white");
                 document.querySelector("#navigation-header").classList.add("shadow-xl");
                 for (let index = 1; index < 7; index++) {
-                    document.querySelector("#nav-item-" + index).style.color = "#303058";
+                    document.querySelector("#nav-item-" + index).style.color = "#17123B";
                 }
             } else {
                 document.querySelector("#navigation-header").classList.add("bg-inherit");
